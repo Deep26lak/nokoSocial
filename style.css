@@ -340,4 +340,19 @@ overflow: hidden;
 .middle .create-post{
   width: 100%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  background: var(--color-white);
+  padding: .4rem var(--card-padding);
+  border-radius: var(--border-radius);
+}
+
+.middle .create-post input[type="text"]{
+  justify-self: start;
+  padding-left: 1rem;
+  width: 100%;
+  background: transparent;
+  color: var(--color-dark);
+  margin-right: 1rem;
 }
