@@ -18,7 +18,7 @@
   --card-padding: 1rem;
 
   --top-sticky-left: 5.5rem;
-  --top-sticky-right: -18rem;
+  --top-sticky-right: -20rem;
 }
 
 *,
@@ -408,7 +408,7 @@ line-height: 1.5rem;
 
 
 /* -------------------------- right side  ------------------------------- */
-.main .right{
+main .container .right {
   height: max-content;
   position: sticky;
   top: var(--top-sticky-right);
@@ -457,5 +457,53 @@ margin-bottom: 1rem;
   margin: 0;
 }
 .right .messages .message p{
-  font-size: 0.8rem;;
+  font-size: 0.8rem;
+}
+
+.right  .message .profile-photo{
+position: relative;
+overflow: visible;
+}
+.profile-photo img{
+  border-radius: 50%;
+}
+.right .messages .message .profile-photo .active{
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  border: 3px solid var(--color-white);
+  background: var(--color-success);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.right .messages   .message-requests{
+  color: var(--color-primary);
+}
+
+/* ---------------------------  Friend Request   ------------------------------------------ */
+.right  .friend-requests{
+  margin-top: 1rem;
+}
+.right  .friend-requests h4{
+  margin: 1rem 0;
+  color: var(--color-gray);
+}
+.right .request{
+  background: var(--color-white);
+  padding: var(--card-padding);
+  border-radius: var(--card-border-radius);
+  margin-bottom: 1rem;
+  
+}
+
+.right .request .info{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.right .request .action{
+  display: flex;
+  gap: 1rem;
+
 }
