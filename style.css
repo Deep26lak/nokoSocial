@@ -632,8 +632,24 @@ main .container .right {
   border: 2px solid var(--color-gray);
 }
 
+/* foooter */
+
+footer{
+width: 100%;
+ display: flex;
+ flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 2rem 0;
+}
+footer .footer-btn{
+margin: 1rem 0;
+
+}
+
+
 /* ==================================================================
-           MEDIA queries for small laptop and big tablets
+           MEDIA queries for small laptop and big tablets 
 ====================================================================*/
 
 @media screen and (max-width: 1200px) {
@@ -684,7 +700,6 @@ main .container .right {
     left: calc(20rem - 00.6rem);
     display: block;
   }
-
   main .container .middle{
     grid-column: 1/3;
   }
@@ -692,3 +707,6 @@ main .container .right {
     display: none;
   }
 }
+
+
+
