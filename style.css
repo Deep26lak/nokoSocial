@@ -641,6 +641,7 @@ width: 100%;
 justify-content: center;
 align-items: center;
 margin: 2rem 0;
+text-align: center;
 }
 footer .footer-btn{
 margin: 1rem 0;
@@ -705,7 +706,7 @@ margin: 1rem 0;
   }
   main .container .right{
     display: none;
-  }
+  }   
 }
 
 
