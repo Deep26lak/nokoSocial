@@ -488,7 +488,7 @@ overflow: visible;
 }
 .right  .friend-requests h3{
   margin: 1rem 0;
-  color: var(--color-gray);
+  color: var(--color-dark);
 }
 .right .request{
   background: var(--color-white);
