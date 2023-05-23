@@ -517,6 +517,7 @@ main .container .right {
   border-radius: var(--card-border-radius);
   padding: 3rem;
   width: 50%;
+  box-shadow: 0 0 1rem var(--color-gray);
 }
 .customize-theme .font-size {
   margin-top: 5rem;
@@ -599,6 +600,7 @@ main .container .right {
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
+  
 }
 .customize-theme .choose-bg > div {
   width: 100%;
@@ -675,6 +677,9 @@ margin: 1rem 0;
   .left .btn {
     display: none;
   }
+  .customize-theme .card{
+    width: 70vw;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -709,6 +714,13 @@ margin: 1rem 0;
   main .container .right{
     display: none;
   }   
+  .customize-theme .card{
+    width: 80vw;
+  }
+  .customize-theme .choose-bg{
+    flex-wrap: wrap;
+    margin-block: 1rem;
+  }
 }
 
 
