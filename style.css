@@ -521,6 +521,7 @@ main .container .right {
 }
 .customize-theme .font-size {
   margin-top: 5rem;
+  cursor: pointer;
 }
 .customize-theme .font-size > div {
   display: flex;
@@ -715,7 +716,7 @@ margin: 1rem 0;
     display: none;
   }   
   .customize-theme .card{
-    width: 80vw;
+    width: 90vw;
   }
   .customize-theme .choose-bg{
     flex-wrap: wrap;
