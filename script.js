@@ -17,6 +17,12 @@ const fontSizes = document.querySelectorAll(".choose-size span");
 const root = document.querySelector(":root");
 const chooseColor = document.querySelectorAll('.choose-color span')
 
+// DARK THEME
+const bg1=document.querySelector('.bg-1')
+const bg2=document.querySelector('.bg-2')
+const bg3=document.querySelector('.bg-3')
+
+
 // remove avtive class from manu items
 const changeActiveItem = () => {
   menuItems.forEach((item) => {
@@ -154,3 +160,73 @@ size.addEventListener('click',()=>{
   }
 })
 })
+
+
+
+// ===================================== DARK THEME ======================================
+
+// let whiteColorLighness;
+// let lightColorLighness;
+// let darkColorLighness;
+
+// const changeBG = () =>{
+//   root.style.setProperty("--color-light", 'lightColorLighness')
+//   root.style.setProperty("--color-white", 'whiteColorLighness')
+//   root.style.setProperty("--color-dark", 'darkColorLighness')
+// }
+
+// bg2.addEventListener('click',()=>{
+//   darkColorLighness = "hsl(252, 30% , 95%)" ;
+//  whiteColorLighness = "hsl(252, 30% , 20%)" ;
+// lightColorLighness = "hsl(252, 30% , 15%)";
+
+// // add active class
+// bg2.classList.add('active')
+
+// // remove active class from other
+//  bg1.classList.remove('active')
+//  bg3.classList.remove('active')
+//  changeBG()
+
+// })
+
+// bg1.addEventListener('click',()=>{
+// darkColorLighness = "hsl(252, 30% , 17%)" ;
+// whiteColorLighness = "hsl(252, 30% , 100%)" ;
+// lightColorLighness = "hsl(252, 30% , 95%)";
+
+
+// // add active class
+// bg1.classList.add('active')
+
+// // remove active class from other
+//  bg2.classList.remove('active')
+//  bg3.classList.remove('active')
+//  changeBG()
+//  window.location.reload()
+// })
+
+
+
+// bg3.addEventListener('click',()=>{
+// //   darkColorLighness = '95%' ;
+// //  whiteColorLighness = "10%" ;
+// //  lightColorLighness = "0%";
+//  darkColorLighness = "hsl(252, 30% , 95%)" ;
+//  whiteColorLighness = "hsl(252, 30% , 10%)" ;
+// lightColorLighness = "hsl(252, 30% , 0%)";
+
+
+// // add active class
+// bg3.classList.add('active')
+
+// // remove active class from other
+//  bg1.classList.remove('active')
+//  bg2.classList.remove('active')
+//  changeBG()
+
+// })
+
+
+// ===================================== request ======================================
+
