@@ -165,68 +165,71 @@ size.addEventListener('click',()=>{
 
 // ===================================== DARK THEME ======================================
 
-// let whiteColorLighness;
-// let lightColorLighness;
-// let darkColorLighness;
+let whiteColorLighness;
+let lightColorLighness;
+let darkColorLighness;
 
-// const changeBG = () =>{
-//   root.style.setProperty("--color-light", 'lightColorLighness')
-//   root.style.setProperty("--color-white", 'whiteColorLighness')
-//   root.style.setProperty("--color-dark", 'darkColorLighness')
-// }
+const changeBG = () =>{
+  root.style.setProperty("--light-color-lighness", 'lightColorLighness')
+  root.style.setProperty("--white-color-lighness", 'whiteColorLighness')
+  root.style.setProperty("--dark-color-lighness", 'darkColorLighness')
+}
 
-// bg2.addEventListener('click',()=>{
-//   darkColorLighness = "hsl(252, 30% , 95%)" ;
-//  whiteColorLighness = "hsl(252, 30% , 20%)" ;
-// lightColorLighness = "hsl(252, 30% , 15%)";
+bg2.addEventListener('click',()=>{
+  darkColorLighness ="95%" ;
+ whiteColorLighness ="20%" ;
+lightColorLighness = "15%";
 
-// // add active class
-// bg2.classList.add('active')
+// add active class
+bg2.classList.add('active')
 
-// // remove active class from other
-//  bg1.classList.remove('active')
-//  bg3.classList.remove('active')
-//  changeBG()
+// remove active class from other
+ bg1.classList.remove('active')
+ bg3.classList.remove('active')
+ changeBG()
 
-// })
+})
 
-// bg1.addEventListener('click',()=>{
+bg1.addEventListener('click',()=>{
+  darkColorLighness = '95%' ;
+ whiteColorLighness = "10%" ;
+ lightColorLighness = "0%";
+
 // darkColorLighness = "hsl(252, 30% , 17%)" ;
 // whiteColorLighness = "hsl(252, 30% , 100%)" ;
 // lightColorLighness = "hsl(252, 30% , 95%)";
 
 
-// // add active class
-// bg1.classList.add('active')
+// add active class
+bg1.classList.add('active')
 
-// // remove active class from other
-//  bg2.classList.remove('active')
-//  bg3.classList.remove('active')
-//  changeBG()
-//  window.location.reload()
-// })
+// remove active class from other
+ bg2.classList.remove('active')
+ bg3.classList.remove('active')
+ changeBG()
+ window.location.reload()
+})
 
 
 
-// bg3.addEventListener('click',()=>{
-// //   darkColorLighness = '95%' ;
-// //  whiteColorLighness = "10%" ;
-// //  lightColorLighness = "0%";
+bg3.addEventListener('click',()=>{
+  darkColorLighness = '95%' ;
+ whiteColorLighness = "10%" ;
+ lightColorLighness = "0%";
 //  darkColorLighness = "hsl(252, 30% , 95%)" ;
 //  whiteColorLighness = "hsl(252, 30% , 10%)" ;
 // lightColorLighness = "hsl(252, 30% , 0%)";
 
 
-// // add active class
-// bg3.classList.add('active')
+// add active class
+bg3.classList.add('active')
 
-// // remove active class from other
-//  bg1.classList.remove('active')
-//  bg2.classList.remove('active')
-//  changeBG()
+// remove active class from other
+ bg1.classList.remove('active')
+ bg2.classList.remove('active')
+ changeBG()
 
-// })
+})
 
 
 // ===================================== request ======================================
-
